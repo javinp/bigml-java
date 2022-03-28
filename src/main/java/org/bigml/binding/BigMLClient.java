@@ -418,6 +418,14 @@ public class BigMLClient {
         return bigmlUrl;
     }
     
+    public String getBigMLUser() {
+        return bigmlUser;
+    }
+
+    public String getBigMLApiKey() {
+        return bigmlApiKey;
+    }
+
     public CacheManager getCacheManager() {
         return cacheManager;
     }
